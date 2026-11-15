@@ -11,7 +11,7 @@ Stop-by-stop timetable of Željeznice Federacije BiH (Bosnia and Herzegovina), r
 
 ## GTFS
 
-`zfbh-gtfs.zip` is the same data as a GTFS feed (40 stops, 7 routes, 39 trips). Rebuild it with
+`packages/zfbh-gtfs.zip` is the same data as a GTFS feed (40 stops, 7 routes, 39 trips). Rebuild it with
 `python geocode-stations.py` (once, writes `stations.csv`) and `python make-gtfs.py`.
 
 - Stop coordinates come from OpenStreetMap via Nominatim, matched by name to railway stations/halts
