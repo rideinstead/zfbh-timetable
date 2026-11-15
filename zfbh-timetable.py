@@ -1,4 +1,4 @@
-"""Hand-made timetable for Zeljeznice FBiH (Bosnia), which has no usable GTFS.
+"""Hand-made timetable for Zeljeznice FBiH (Bosnia). The only open GTFS (community, Transitous ba_ZFBiH) ended 2025-12-13.
 
 Scrapes https://www.zfbh.ba/red-voznje/: the main table (termini only) plus the
 station-pair form (POST redvoznje_pol / redvoznje_dol), which returns the times at

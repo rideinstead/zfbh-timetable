@@ -1,7 +1,7 @@
 # ŽFBH timetable (unofficial)
 
 Stop-by-stop timetable of Željeznice Federacije BiH (Bosnia and Herzegovina), rebuilt from
-<https://www.zfbh.ba/red-voznje/>, because the operator publishes no open GTFS feed.
+<https://www.zfbh.ba/red-voznje/>, because the operator publishes no GTFS. A community feed (`ba_ZFBiH` on Transitous, ŽFBH and Željeznice RS) exists but covers 2025 only and ended 2025-12-13; this repo has the 2025/2026 ŽFBH timetable (ŽRS is not covered).
 
 - `zfbh-timetable.json`: 39 trains, 54 stations. Each train has its route, rank, service rules
   (days, date ranges, "not on weekends/public holidays") and a time at every stop.
@@ -20,6 +20,7 @@ Stop-by-stop timetable of Željeznice Federacije BiH (Bosnia and Herzegovina), r
   The site states no dates beyond its footnotes.
 - No public-holiday exceptions: the site says some trains skip holidays but gives no dates.
 - Times are one value per stop (the site gives no dwell times). Trains 390-393, 1390, 1391 and 2158 have only two stops.
+- Cross-check against the community feed: 29 of the 39 trains match exactly on first departure and last arrival. The other 10 (390, 392, 393, 720, 721, 2158, 2170, 2171, 2412, 2413) differ from that 2025 feed; I could not tell whether those are 2026 changes or errors here.
 - Validated with the MobilityData GTFS validator 8.0.1: no errors. Remaining warnings: four services have already ended and the feed ends within 30 days (both expected).
 - Coordinates were checked by the speed a train would need between consecutive stops, not on a map: one wrong match (Gora) was caught and fixed; no segment now implies over 110 km/h.
 
