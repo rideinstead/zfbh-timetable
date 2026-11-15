@@ -1,4 +1,4 @@
-"""Convert zfbh-timetable.json + stations.csv into a GTFS feed: packages/zfbh-gtfs.zip. Run: python make-gtfs.py
+"""Convert zfbh-timetable.json + stations.csv into a GTFS feed: dist/zfbh-gtfs.zip. Run: python make-gtfs.py
 
 shortcut: no public-holiday exceptions (the site says some trains skip them but lists no dates), add
 calendar_dates removals once ZFBH publishes the holiday list.
@@ -73,7 +73,8 @@ for r in tables['stop_times']:
 assert all(42 < float(s['stop_lat']) < 46 and 15 < float(s['stop_lon']) < 20 for s in tables['stops'])
 assert len(last) == len(doc['trains'])
 
-with zipfile.ZipFile(os.path.join(HERE, 'packages', 'zfbh-gtfs.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
+os.makedirs(os.path.join(HERE, 'dist'), exist_ok=True)
+with zipfile.ZipFile(os.path.join(HERE, 'dist', 'zfbh-gtfs.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
     for name, rows in tables.items():
         if rows:
             buf = io.StringIO()
