@@ -9,6 +9,19 @@ Stop-by-stop timetable of Željeznice Federacije BiH (Bosnia and Herzegovina), r
   queries the site's station-pair form (about 55 requests, paused between each) for intermediate stops.
   It checks that the rebuilt stops start and end at the main-table times.
 
+## GTFS
+
+`zfbh-gtfs.zip` is the same data as a GTFS feed (40 stops, 7 routes, 39 trips). Rebuild it with
+`python geocode-stations.py` (once, writes `stations.csv`) and `python make-gtfs.py`.
+
+- Stop coordinates come from OpenStreetMap via Nominatim, matched by name to railway stations/halts
+  (c) OpenStreetMap contributors, [ODbL](https://www.openstreetmap.org/copyright). Spot-check them before relying on them.
+- Validity is an **assumption**: from 2025-12-14 to 2026-12-12 (the December timetable changes, second Sunday).
+  The site states no dates beyond its footnotes.
+- No public-holiday exceptions: the site says some trains skip holidays but gives no dates.
+- Times are one value per stop (the site gives no dwell times). Trains 390-393, 1390, 1391 and 2158 have only two stops.
+- Not run through the MobilityData GTFS validator; `make-gtfs.py` only checks its own ids, time order and coordinates.
+
 ## Read this first
 
 - **Unofficial.** Not affiliated with ŽFBH. The timetable belongs to ŽFBH; check the source page before travelling.
@@ -18,4 +31,4 @@ Stop-by-stop timetable of Željeznice Federacije BiH (Bosnia and Herzegovina), r
 - Service rules are a reading of the site's footnotes. The site prints "25.06.2025" for trains 390 and 391; this repo
   treats it as a typo for 2026 (`date_as_printed` keeps the original).
 
-Code: MIT (see `LICENSE`). Data: source is zfbh.ba; no licence is granted for it here.
+Code: MIT (see `LICENSE`). Timetable data: source is zfbh.ba; no licence is granted for it here. Coordinates: ODbL (OpenStreetMap).
