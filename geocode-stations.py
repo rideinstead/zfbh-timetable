@@ -14,8 +14,11 @@ def fold(s):   # Ilidža -> Ilidza: OSM often carries the plain-ASCII or another
     return unicodedata.normalize('NFKD', s.replace('đ', 'dj').replace('Đ', 'Dj')).encode('ascii', 'ignore').decode()
 
 
+HINT = {'Gora': 'Gora Zenica'}   # plain 'Gora' finds a different halt 78 km away (caught by a speed check, see README)
+
+
 def lookup(name, cc):
-    for q in (name, fold(name), name + ' railway station', fold(name) + ' railway station', name + ' željeznička stanica'):   # bare name usually matches OSM best
+    for q in (HINT.get(name, name), name, fold(name), name + ' railway station', fold(name) + ' railway station', name + ' željeznička stanica'):   # bare name usually matches OSM best
         qs = urllib.parse.urlencode({'q': q, 'countrycodes': cc, 'format': 'json', 'limit': 8})
         req = urllib.request.Request('https://nominatim.openstreetmap.org/search?' + qs, headers={'User-Agent': 'zfbh-timetable/0.1'})
         res = json.load(urllib.request.urlopen(req, timeout=30))

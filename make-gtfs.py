@@ -10,6 +10,7 @@ import csv, datetime as dt, io, json, os, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 FEED_START, FEED_END = dt.date(2025, 12, 14), dt.date(2026, 12, 12)
 DAYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
+FULL = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']   # GTFS calendar.txt column names
 
 doc = json.load(open(os.path.join(HERE, 'zfbh-timetable.json'), encoding='utf-8'))
 coords = {r['name']: r for r in csv.DictReader(open(os.path.join(HERE, 'stations.csv'), encoding='utf-8'))}
@@ -37,7 +38,7 @@ for t in doc['trains']:
         sid = 'SV%d' % (len(services) + 1)
         start, end = max(FEED_START, iso(sv.get('from', '2000-01-01'))), min(FEED_END, iso(sv.get('until', '2999-01-01')))
         services[key] = sid
-        tables['calendar'].append({'service_id': sid, **{d: int(d in sv['days']) for d in DAYS},
+        tables['calendar'].append({'service_id': sid, **{f: int(d in sv['days']) for d, f in zip(DAYS, FULL)},
                                    'start_date': d8(start), 'end_date': d8(end)})
         ex = sv.get('except')
         if ex:   # e.g. 2170/2171: daily, but not Fri-Sun in summer -> one removal per such date
@@ -50,7 +51,7 @@ for t in doc['trains']:
     rk = (pair, t['rank'])
     if rk not in routes:
         routes[rk] = 'R%d' % (len(routes) + 1)
-        tables['routes'].append(dict(route_id=routes[rk], agency_id='ZFBH', route_short_name=' - '.join(pair),
+        tables['routes'].append(dict(route_id=routes[rk], agency_id='ZFBH', route_short_name='',   # names are over 12 chars; GTFS allows a long name alone
                                      route_long_name='%s (%s)' % (' - '.join(pair), t['rank']), route_type=2))
     tid = 'T' + t['train']
     tables['trips'].append(dict(route_id=routes[rk], service_id=services[key], trip_id=tid, trip_headsign=t['to'],
@@ -60,7 +61,7 @@ for t in doc['trains']:
                                          departure_time=hms(s.get('dep') or s['arr']), stop_id=stop_id[s['station']],
                                          stop_sequence=i, timepoint=1))
 tables['feed_info'].append(dict(feed_publisher_name='rideinstead (unofficial)', feed_publisher_url='https://github.com/rideinstead/zfbh-timetable',
-                                feed_lang='bs', feed_start_date=d8(FEED_START), feed_end_date=d8(FEED_END), feed_version=d8(dt.date.today())))
+                                feed_lang='bs', feed_contact_url='https://github.com/rideinstead/zfbh-timetable/issues', feed_start_date=d8(FEED_START), feed_end_date=d8(FEED_END), feed_version=d8(dt.date.today())))
 
 # self-checks: ids resolve, times never go backwards inside a trip, coordinates sit in the Balkans
 sids = {r['service_id'] for r in tables['calendar']}

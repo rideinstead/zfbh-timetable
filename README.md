@@ -20,7 +20,8 @@ Stop-by-stop timetable of Željeznice Federacije BiH (Bosnia and Herzegovina), r
   The site states no dates beyond its footnotes.
 - No public-holiday exceptions: the site says some trains skip holidays but gives no dates.
 - Times are one value per stop (the site gives no dwell times). Trains 390-393, 1390, 1391 and 2158 have only two stops.
-- Not run through the MobilityData GTFS validator; `make-gtfs.py` only checks its own ids, time order and coordinates.
+- Validated with the MobilityData GTFS validator 8.0.1: no errors. Remaining warnings: four services have already ended and the feed ends within 30 days (both expected).
+- Coordinates were checked by the speed a train would need between consecutive stops, not on a map: one wrong match (Gora) was caught and fixed; no segment now implies over 110 km/h.
 
 ## Read this first
 
