@@ -1,0 +1,2306 @@
+{
+ "source": "https://www.zfbh.ba/red-voznje/",
+ "operator": "Zeljeznice Federacije BiH",
+ "timetable": "2025/2026 (as labelled on the site)",
+ "days": [
+  "mon",
+  "tue",
+  "wed",
+  "thu",
+  "fri",
+  "sat",
+  "sun"
+ ],
+ "trains": [
+  {
+   "train": "390",
+   "rank": "brzi voz",
+   "from": "Ploče",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "sun"
+    ],
+    "until": "2026-06-25",
+    "date_as_printed": "25.06.2025"
+   },
+   "terminus_times": [
+    "15:40",
+    "19:07"
+   ],
+   "stops": [
+    {
+     "station": "Ploče",
+     "dep": "15:40"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "19:07"
+    }
+   ],
+   "termini_only": true
+  },
+  {
+   "train": "391",
+   "rank": "brzi voz",
+   "from": "Sarajevo",
+   "to": "Ploče",
+   "service": {
+    "days": [
+     "sun"
+    ],
+    "until": "2026-06-25",
+    "date_as_printed": "25.06.2025"
+   },
+   "terminus_times": [
+    "07:15",
+    "10:36"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "07:15"
+    },
+    {
+     "station": "Ploče",
+     "arr": "10:36"
+    }
+   ],
+   "termini_only": true
+  },
+  {
+   "train": "392",
+   "rank": "brzi voz",
+   "from": "Ploče",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "sat"
+    ],
+    "until": "2026-06-25"
+   },
+   "terminus_times": [
+    "05:05",
+    "08:35"
+   ],
+   "stops": [
+    {
+     "station": "Ploče",
+     "dep": "05:05"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "08:35"
+    }
+   ],
+   "termini_only": true
+  },
+  {
+   "train": "393",
+   "rank": "brzi voz",
+   "from": "Sarajevo",
+   "to": "Ploče",
+   "service": {
+    "days": [
+     "fri"
+    ],
+    "until": "2026-06-25"
+   },
+   "terminus_times": [
+    "16:46",
+    "20:15"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "16:46"
+    },
+    {
+     "station": "Ploče",
+     "arr": "20:15"
+    }
+   ],
+   "termini_only": true
+  },
+  {
+   "train": "710",
+   "rank": "brzi voz",
+   "from": "Sarajevo",
+   "to": "Maglaj",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "16:28",
+    "19:01"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "16:28"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "arr": "16:54"
+    },
+    {
+     "station": "Podlugovi",
+     "arr": "16:57"
+    },
+    {
+     "station": "Visoko",
+     "arr": "17:05"
+    },
+    {
+     "station": "Kakanj",
+     "arr": "17:23"
+    },
+    {
+     "station": "Zenica",
+     "arr": "17:50",
+     "dep": "17:51"
+    },
+    {
+     "station": "Žepče",
+     "arr": "18:25"
+    },
+    {
+     "station": "Zavidovići",
+     "arr": "18:38"
+    },
+    {
+     "station": "Maglaj",
+     "arr": "19:01"
+    }
+   ]
+  },
+  {
+   "train": "711",
+   "rank": "brzi voz",
+   "from": "Maglaj",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat"
+    ]
+   },
+   "terminus_times": [
+    "06:07",
+    "08:47"
+   ],
+   "stops": [
+    {
+     "station": "Maglaj",
+     "dep": "06:07"
+    },
+    {
+     "station": "Zavidovići",
+     "dep": "06:30"
+    },
+    {
+     "station": "Žepče",
+     "dep": "06:44"
+    },
+    {
+     "station": "Zenica",
+     "dep": "07:25",
+     "arr": "07:18"
+    },
+    {
+     "station": "Kakanj",
+     "dep": "07:52"
+    },
+    {
+     "station": "Visoko",
+     "dep": "08:10"
+    },
+    {
+     "station": "Podlugovi",
+     "dep": "08:18"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "dep": "08:21"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "08:47"
+    }
+   ]
+  },
+  {
+   "train": "720",
+   "rank": "brzi voz",
+   "from": "Čapljina",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "06:03",
+    "08:35"
+   ],
+   "stops": [
+    {
+     "station": "Čapljina",
+     "dep": "06:03"
+    },
+    {
+     "station": "Žitomislići",
+     "dep": "06:15"
+    },
+    {
+     "station": "Mostar",
+     "dep": "06:33"
+    },
+    {
+     "station": "Drežnica Stara",
+     "dep": "06:52"
+    },
+    {
+     "station": "Jablanica Grad",
+     "dep": "07:06"
+    },
+    {
+     "station": "Konjic",
+     "dep": "07:22"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "08:18"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "08:35"
+    }
+   ]
+  },
+  {
+   "train": "721",
+   "rank": "brzi voz",
+   "from": "Sarajevo",
+   "to": "Čapljina",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "16:46",
+    "19:18"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "16:46"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "17:03"
+    },
+    {
+     "station": "Konjic",
+     "arr": "17:55"
+    },
+    {
+     "station": "Jablanica Grad",
+     "arr": "18:15"
+    },
+    {
+     "station": "Drežnica Stara",
+     "arr": "18:29"
+    },
+    {
+     "station": "Mostar",
+     "arr": "18:48"
+    },
+    {
+     "station": "Žitomislići",
+     "arr": "19:06"
+    },
+    {
+     "station": "Čapljina",
+     "arr": "19:18"
+    }
+   ]
+  },
+  {
+   "train": "722",
+   "rank": "brzi voz",
+   "from": "Čapljina",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "16:42",
+    "19:07"
+   ],
+   "stops": [
+    {
+     "station": "Čapljina",
+     "dep": "16:42"
+    },
+    {
+     "station": "Žitomislići",
+     "dep": "16:54"
+    },
+    {
+     "station": "Mostar",
+     "dep": "17:09"
+    },
+    {
+     "station": "Drežnica Stara",
+     "dep": "17:28"
+    },
+    {
+     "station": "Jablanica Grad",
+     "dep": "17:42"
+    },
+    {
+     "station": "Konjic",
+     "dep": "17:58"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "18:50"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "19:07"
+    }
+   ]
+  },
+  {
+   "train": "723",
+   "rank": "brzi voz",
+   "from": "Sarajevo",
+   "to": "Čapljina",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "07:15",
+    "09:40"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "07:15"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "07:32"
+    },
+    {
+     "station": "Konjic",
+     "arr": "08:24"
+    },
+    {
+     "station": "Jablanica Grad",
+     "arr": "08:40"
+    },
+    {
+     "station": "Drežnica Stara",
+     "arr": "08:54"
+    },
+    {
+     "station": "Mostar",
+     "arr": "09:13"
+    },
+    {
+     "station": "Žitomislići",
+     "arr": "09:28"
+    },
+    {
+     "station": "Čapljina",
+     "arr": "09:40"
+    }
+   ]
+  },
+  {
+   "train": "1390",
+   "rank": "brzi voz",
+   "from": "Ploče",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "fri",
+     "sat",
+     "sun"
+    ],
+    "from": "2026-06-26",
+    "until": "2026-09-27"
+   },
+   "terminus_times": [
+    "18:26",
+    "21:54"
+   ],
+   "stops": [
+    {
+     "station": "Ploče",
+     "dep": "18:26"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "21:54"
+    }
+   ],
+   "termini_only": true
+  },
+  {
+   "train": "1391",
+   "rank": "brzi voz",
+   "from": "Sarajevo",
+   "to": "Ploče",
+   "service": {
+    "days": [
+     "fri",
+     "sat",
+     "sun"
+    ],
+    "from": "2026-06-26",
+    "until": "2026-09-27"
+   },
+   "terminus_times": [
+    "07:15",
+    "10:36"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "07:15"
+    },
+    {
+     "station": "Ploče",
+     "arr": "10:36"
+    }
+   ],
+   "termini_only": true
+  },
+  {
+   "train": "2101",
+   "rank": "lokalni voz",
+   "from": "Maglaj",
+   "to": "Zenica",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "04:48",
+    "06:21"
+   ],
+   "stops": [
+    {
+     "station": "Maglaj",
+     "dep": "04:48"
+    },
+    {
+     "station": "Zenica",
+     "arr": "06:21"
+    }
+   ]
+  },
+  {
+   "train": "2102",
+   "rank": "lokalni voz",
+   "from": "Zenica",
+   "to": "Maglaj",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "15:36",
+    "17:08"
+   ],
+   "stops": [
+    {
+     "station": "Zenica",
+     "dep": "15:36"
+    },
+    {
+     "station": "Maglaj",
+     "arr": "17:08"
+    }
+   ]
+  },
+  {
+   "train": "2150",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Zenica",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "04:44",
+    "06:28"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "04:44"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "04:53"
+    },
+    {
+     "station": "Briješće",
+     "arr": "04:57"
+    },
+    {
+     "station": "Rajlovac",
+     "arr": "04:59"
+    },
+    {
+     "station": "Reljevo",
+     "arr": "05:03"
+    },
+    {
+     "station": "Semizovac",
+     "arr": "05:07"
+    },
+    {
+     "station": "Vogošća",
+     "arr": "05:11"
+    },
+    {
+     "station": "Ilijaš",
+     "arr": "05:15"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "arr": "05:17"
+    },
+    {
+     "station": "Podlugovi",
+     "arr": "05:20"
+    },
+    {
+     "station": "Lješevo",
+     "arr": "05:24"
+    },
+    {
+     "station": "Visoko",
+     "arr": "05:28"
+    },
+    {
+     "station": "Porječani",
+     "arr": "05:34"
+    },
+    {
+     "station": "Buzići",
+     "arr": "05:37"
+    },
+    {
+     "station": "Dobrinje",
+     "arr": "05:40"
+    },
+    {
+     "station": "Ćatići",
+     "arr": "05:51"
+    },
+    {
+     "station": "Kakanj",
+     "arr": "05:54"
+    },
+    {
+     "station": "Roščevina",
+     "arr": "05:58"
+    },
+    {
+     "station": "Modrinje",
+     "arr": "06:05"
+    },
+    {
+     "station": "Gora",
+     "arr": "06:08"
+    },
+    {
+     "station": "Lašva",
+     "arr": "06:12"
+    },
+    {
+     "station": "Janjići",
+     "arr": "06:18"
+    },
+    {
+     "station": "Drivuša",
+     "arr": "06:21"
+    },
+    {
+     "station": "Zenica",
+     "arr": "06:28"
+    }
+   ]
+  },
+  {
+   "train": "2151",
+   "rank": "lokalni voz",
+   "from": "Zenica",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "04:59",
+    "06:39"
+   ],
+   "stops": [
+    {
+     "station": "Zenica",
+     "dep": "04:59"
+    },
+    {
+     "station": "Drivuša",
+     "dep": "05:06"
+    },
+    {
+     "station": "Janjići",
+     "dep": "05:09"
+    },
+    {
+     "station": "Lašva",
+     "dep": "05:15"
+    },
+    {
+     "station": "Gora",
+     "dep": "05:19"
+    },
+    {
+     "station": "Modrinje",
+     "dep": "05:22"
+    },
+    {
+     "station": "Roščevina",
+     "dep": "05:29"
+    },
+    {
+     "station": "Kakanj",
+     "dep": "05:33"
+    },
+    {
+     "station": "Ćatići",
+     "dep": "05:36"
+    },
+    {
+     "station": "Dobrinje",
+     "dep": "05:43"
+    },
+    {
+     "station": "Buzići",
+     "dep": "05:46"
+    },
+    {
+     "station": "Porječani",
+     "dep": "05:49"
+    },
+    {
+     "station": "Visoko",
+     "dep": "05:55"
+    },
+    {
+     "station": "Lješevo",
+     "dep": "05:59"
+    },
+    {
+     "station": "Podlugovi",
+     "dep": "06:03"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "dep": "06:06"
+    },
+    {
+     "station": "Ilijaš",
+     "dep": "06:08"
+    },
+    {
+     "station": "Vogošća",
+     "dep": "06:12"
+    },
+    {
+     "station": "Semizovac",
+     "dep": "06:16"
+    },
+    {
+     "station": "Reljevo",
+     "dep": "06:20"
+    },
+    {
+     "station": "Rajlovac",
+     "dep": "06:24"
+    },
+    {
+     "station": "Briješće",
+     "dep": "06:26"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "06:30"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "06:39"
+    }
+   ]
+  },
+  {
+   "train": "2156",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Zenica",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "15:41",
+    "17:25"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "15:41"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "15:50"
+    },
+    {
+     "station": "Briješće",
+     "arr": "15:54"
+    },
+    {
+     "station": "Rajlovac",
+     "arr": "15:56"
+    },
+    {
+     "station": "Reljevo",
+     "arr": "16:00"
+    },
+    {
+     "station": "Semizovac",
+     "arr": "16:04"
+    },
+    {
+     "station": "Vogošća",
+     "arr": "16:08"
+    },
+    {
+     "station": "Ilijaš",
+     "arr": "16:12"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "arr": "16:14"
+    },
+    {
+     "station": "Podlugovi",
+     "arr": "16:17"
+    },
+    {
+     "station": "Lješevo",
+     "arr": "16:21"
+    },
+    {
+     "station": "Visoko",
+     "arr": "16:25"
+    },
+    {
+     "station": "Porječani",
+     "arr": "16:35"
+    },
+    {
+     "station": "Buzići",
+     "arr": "16:38"
+    },
+    {
+     "station": "Dobrinje",
+     "arr": "16:41"
+    },
+    {
+     "station": "Ćatići",
+     "arr": "16:48"
+    },
+    {
+     "station": "Kakanj",
+     "arr": "16:51"
+    },
+    {
+     "station": "Roščevina",
+     "arr": "16:55"
+    },
+    {
+     "station": "Modrinje",
+     "arr": "17:02"
+    },
+    {
+     "station": "Gora",
+     "arr": "17:05"
+    },
+    {
+     "station": "Lašva",
+     "arr": "17:09"
+    },
+    {
+     "station": "Janjići",
+     "arr": "17:15"
+    },
+    {
+     "station": "Drivuša",
+     "arr": "17:18"
+    },
+    {
+     "station": "Zenica",
+     "arr": "17:25"
+    }
+   ]
+  },
+  {
+   "train": "2157",
+   "rank": "lokalni voz",
+   "from": "Zenica",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "15:32",
+    "17:42"
+   ],
+   "stops": [
+    {
+     "station": "Zenica",
+     "dep": "15:32"
+    },
+    {
+     "station": "Drivuša",
+     "dep": "15:39"
+    },
+    {
+     "station": "Janjići",
+     "dep": "15:42"
+    },
+    {
+     "station": "Lašva",
+     "dep": "15:48"
+    },
+    {
+     "station": "Gora",
+     "dep": "15:52"
+    },
+    {
+     "station": "Modrinje",
+     "dep": "15:55"
+    },
+    {
+     "station": "Roščevina",
+     "dep": "16:02"
+    },
+    {
+     "station": "Kakanj",
+     "dep": "16:06"
+    },
+    {
+     "station": "Ćatići",
+     "dep": "16:09"
+    },
+    {
+     "station": "Dobrinje",
+     "dep": "16:16"
+    },
+    {
+     "station": "Buzići",
+     "dep": "16:19"
+    },
+    {
+     "station": "Porječani",
+     "dep": "16:22"
+    },
+    {
+     "station": "Visoko",
+     "dep": "16:28"
+    },
+    {
+     "station": "Lješevo",
+     "dep": "16:32"
+    },
+    {
+     "station": "Podlugovi",
+     "dep": "17:02"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "dep": "17:05"
+    },
+    {
+     "station": "Ilijaš",
+     "dep": "17:07"
+    },
+    {
+     "station": "Vogošća",
+     "dep": "17:11"
+    },
+    {
+     "station": "Semizovac",
+     "dep": "17:15"
+    },
+    {
+     "station": "Reljevo",
+     "dep": "17:19"
+    },
+    {
+     "station": "Rajlovac",
+     "dep": "17:23"
+    },
+    {
+     "station": "Briješće",
+     "dep": "17:25"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "17:33"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "17:42"
+    }
+   ]
+  },
+  {
+   "train": "2158",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Zenica",
+   "service": {
+    "days": [
+     "fri",
+     "sat",
+     "sun"
+    ],
+    "from": "2026-06-26",
+    "until": "2026-09-27"
+   },
+   "terminus_times": [
+    "22:02",
+    "23:42"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "22:02"
+    },
+    {
+     "station": "Zenica",
+     "arr": "23:42"
+    }
+   ],
+   "termini_only": true
+  },
+  {
+   "train": "2160",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Visoko",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "05:24",
+    "06:12"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "05:24"
+    },
+    {
+     "station": "Buča Potok",
+     "arr": "05:30"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "05:33"
+    },
+    {
+     "station": "Briješće",
+     "arr": "05:37"
+    },
+    {
+     "station": "Rajlovac",
+     "arr": "05:39"
+    },
+    {
+     "station": "Reljevo",
+     "arr": "05:43"
+    },
+    {
+     "station": "Semizovac",
+     "arr": "05:47"
+    },
+    {
+     "station": "Vogošća",
+     "arr": "05:51"
+    },
+    {
+     "station": "Ilijaš",
+     "arr": "05:55"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "arr": "05:57"
+    },
+    {
+     "station": "Podlugovi",
+     "arr": "06:00"
+    },
+    {
+     "station": "Lješevo",
+     "arr": "06:08"
+    },
+    {
+     "station": "Visoko",
+     "arr": "06:12"
+    }
+   ]
+  },
+  {
+   "train": "2161",
+   "rank": "lokalni voz",
+   "from": "Visoko",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "06:48",
+    "07:32"
+   ],
+   "stops": [
+    {
+     "station": "Visoko",
+     "dep": "06:48"
+    },
+    {
+     "station": "Lješevo",
+     "dep": "06:52"
+    },
+    {
+     "station": "Podlugovi",
+     "dep": "06:56"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "dep": "06:59"
+    },
+    {
+     "station": "Ilijaš",
+     "dep": "07:01"
+    },
+    {
+     "station": "Vogošća",
+     "dep": "07:05"
+    },
+    {
+     "station": "Semizovac",
+     "dep": "07:09"
+    },
+    {
+     "station": "Reljevo",
+     "dep": "07:13"
+    },
+    {
+     "station": "Rajlovac",
+     "dep": "07:17"
+    },
+    {
+     "station": "Briješće",
+     "dep": "07:19"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "07:23"
+    },
+    {
+     "station": "Buča Potok",
+     "dep": "07:26"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "07:32"
+    }
+   ]
+  },
+  {
+   "train": "2162",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Visoko",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "08:17",
+    "09:04"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "08:17"
+    },
+    {
+     "station": "Buča Potok",
+     "arr": "08:23"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "08:26"
+    },
+    {
+     "station": "Briješće",
+     "arr": "08:30"
+    },
+    {
+     "station": "Rajlovac",
+     "arr": "08:32"
+    },
+    {
+     "station": "Reljevo",
+     "arr": "08:39"
+    },
+    {
+     "station": "Semizovac",
+     "arr": "08:43"
+    },
+    {
+     "station": "Vogošća",
+     "arr": "08:47"
+    },
+    {
+     "station": "Ilijaš",
+     "arr": "08:51"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "arr": "08:53"
+    },
+    {
+     "station": "Podlugovi",
+     "arr": "08:56"
+    },
+    {
+     "station": "Lješevo",
+     "arr": "09:00"
+    },
+    {
+     "station": "Visoko",
+     "arr": "09:04"
+    }
+   ]
+  },
+  {
+   "train": "2163",
+   "rank": "lokalni voz",
+   "from": "Visoko",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "09:29",
+    "10:13"
+   ],
+   "stops": [
+    {
+     "station": "Visoko",
+     "dep": "09:29"
+    },
+    {
+     "station": "Lješevo",
+     "dep": "09:33"
+    },
+    {
+     "station": "Podlugovi",
+     "dep": "09:37"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "dep": "09:40"
+    },
+    {
+     "station": "Ilijaš",
+     "dep": "09:42"
+    },
+    {
+     "station": "Vogošća",
+     "dep": "09:46"
+    },
+    {
+     "station": "Semizovac",
+     "dep": "09:50"
+    },
+    {
+     "station": "Reljevo",
+     "dep": "09:54"
+    },
+    {
+     "station": "Rajlovac",
+     "dep": "09:58"
+    },
+    {
+     "station": "Briješće",
+     "dep": "10:00"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "10:04"
+    },
+    {
+     "station": "Buča Potok",
+     "dep": "10:07"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "10:13"
+    }
+   ]
+  },
+  {
+   "train": "2168",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Visoko",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "17:21",
+    "18:05"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "17:21"
+    },
+    {
+     "station": "Buča Potok",
+     "arr": "17:27"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "17:30"
+    },
+    {
+     "station": "Briješće",
+     "arr": "17:34"
+    },
+    {
+     "station": "Rajlovac",
+     "arr": "17:36"
+    },
+    {
+     "station": "Reljevo",
+     "arr": "17:40"
+    },
+    {
+     "station": "Semizovac",
+     "arr": "17:45"
+    },
+    {
+     "station": "Vogošća",
+     "arr": "17:48"
+    },
+    {
+     "station": "Ilijaš",
+     "arr": "17:52"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "arr": "17:54"
+    },
+    {
+     "station": "Podlugovi",
+     "arr": "17:57"
+    },
+    {
+     "station": "Lješevo",
+     "arr": "18:01"
+    },
+    {
+     "station": "Visoko",
+     "arr": "18:05"
+    }
+   ]
+  },
+  {
+   "train": "2169",
+   "rank": "lokalni voz",
+   "from": "Visoko",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "18:36",
+    "19:20"
+   ],
+   "stops": [
+    {
+     "station": "Visoko",
+     "dep": "18:36"
+    },
+    {
+     "station": "Lješevo",
+     "dep": "18:40"
+    },
+    {
+     "station": "Podlugovi",
+     "dep": "18:44"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "dep": "18:47"
+    },
+    {
+     "station": "Ilijaš",
+     "dep": "18:49"
+    },
+    {
+     "station": "Vogošća",
+     "dep": "18:53"
+    },
+    {
+     "station": "Semizovac",
+     "dep": "18:57"
+    },
+    {
+     "station": "Reljevo",
+     "dep": "19:01"
+    },
+    {
+     "station": "Rajlovac",
+     "dep": "19:05"
+    },
+    {
+     "station": "Briješće",
+     "dep": "19:07"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "19:11"
+    },
+    {
+     "station": "Buča Potok",
+     "dep": "19:14"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "19:20"
+    }
+   ]
+  },
+  {
+   "train": "2170",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Visoko",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ],
+    "except": {
+     "days": [
+      "fri",
+      "sat",
+      "sun"
+     ],
+     "from": "2026-06-26",
+     "until": "2026-09-27"
+    }
+   },
+   "terminus_times": [
+    "19:45",
+    "20:29"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "19:45"
+    },
+    {
+     "station": "Buča Potok",
+     "arr": "19:51"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "19:54"
+    },
+    {
+     "station": "Briješće",
+     "arr": "19:58"
+    },
+    {
+     "station": "Rajlovac",
+     "arr": "20:00"
+    },
+    {
+     "station": "Reljevo",
+     "arr": "20:04"
+    },
+    {
+     "station": "Semizovac",
+     "arr": "20:08"
+    },
+    {
+     "station": "Vogošća",
+     "arr": "20:12"
+    },
+    {
+     "station": "Ilijaš",
+     "arr": "20:16"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "arr": "20:18"
+    },
+    {
+     "station": "Podlugovi",
+     "arr": "20:21"
+    },
+    {
+     "station": "Lješevo",
+     "arr": "20:25"
+    },
+    {
+     "station": "Visoko",
+     "arr": "20:29"
+    }
+   ]
+  },
+  {
+   "train": "2171",
+   "rank": "lokalni voz",
+   "from": "Visoko",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ],
+    "except": {
+     "days": [
+      "fri",
+      "sat",
+      "sun"
+     ],
+     "from": "2026-06-26",
+     "until": "2026-09-27"
+    }
+   },
+   "terminus_times": [
+    "20:40",
+    "21:24"
+   ],
+   "stops": [
+    {
+     "station": "Visoko",
+     "dep": "20:40"
+    },
+    {
+     "station": "Lješevo",
+     "dep": "20:44"
+    },
+    {
+     "station": "Podlugovi",
+     "dep": "20:48"
+    },
+    {
+     "station": "Ilijaš Grad",
+     "dep": "20:51"
+    },
+    {
+     "station": "Ilijaš",
+     "dep": "20:53"
+    },
+    {
+     "station": "Vogošća",
+     "dep": "20:57"
+    },
+    {
+     "station": "Semizovac",
+     "dep": "21:01"
+    },
+    {
+     "station": "Reljevo",
+     "dep": "21:05"
+    },
+    {
+     "station": "Rajlovac",
+     "dep": "21:09"
+    },
+    {
+     "station": "Briješće",
+     "dep": "21:11"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "21:15"
+    },
+    {
+     "station": "Buča Potok",
+     "dep": "21:18"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "21:24"
+    }
+   ]
+  },
+  {
+   "train": "2402",
+   "rank": "lokalni voz",
+   "from": "Pazarić",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "06:37",
+    "07:11"
+   ],
+   "stops": [
+    {
+     "station": "Pazarić",
+     "dep": "06:37"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "06:46"
+    },
+    {
+     "station": "Binježevo",
+     "dep": "06:50"
+    },
+    {
+     "station": "Blažuj",
+     "dep": "06:55"
+    },
+    {
+     "station": "Ilidža",
+     "dep": "07:00"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "07:06"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "07:11"
+    }
+   ]
+  },
+  {
+   "train": "2403",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Pazarić",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "07:34",
+    "08:08"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "07:34"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "07:39"
+    },
+    {
+     "station": "Ilidža",
+     "arr": "07:45"
+    },
+    {
+     "station": "Blažuj",
+     "arr": "07:50"
+    },
+    {
+     "station": "Binježevo",
+     "arr": "07:55"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "07:59"
+    },
+    {
+     "station": "Pazarić",
+     "arr": "08:08"
+    }
+   ]
+  },
+  {
+   "train": "2404",
+   "rank": "lokalni voz",
+   "from": "Pazarić",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "08:25",
+    "08:59"
+   ],
+   "stops": [
+    {
+     "station": "Pazarić",
+     "dep": "08:25"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "08:34"
+    },
+    {
+     "station": "Binježevo",
+     "dep": "08:38"
+    },
+    {
+     "station": "Blažuj",
+     "dep": "08:43"
+    },
+    {
+     "station": "Ilidža",
+     "dep": "08:48"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "08:54"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "08:59"
+    }
+   ]
+  },
+  {
+   "train": "2405",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Pazarić",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "09:56",
+    "10:30"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "09:56"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "10:01"
+    },
+    {
+     "station": "Ilidža",
+     "arr": "10:07"
+    },
+    {
+     "station": "Blažuj",
+     "arr": "10:12"
+    },
+    {
+     "station": "Binježevo",
+     "arr": "10:17"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "10:21"
+    },
+    {
+     "station": "Pazarić",
+     "arr": "10:30"
+    }
+   ]
+  },
+  {
+   "train": "2406",
+   "rank": "lokalni voz",
+   "from": "Pazarić",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "11:01",
+    "11:35"
+   ],
+   "stops": [
+    {
+     "station": "Pazarić",
+     "dep": "11:01"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "11:10"
+    },
+    {
+     "station": "Binježevo",
+     "dep": "11:14"
+    },
+    {
+     "station": "Blažuj",
+     "dep": "11:19"
+    },
+    {
+     "station": "Ilidža",
+     "dep": "11:24"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "11:30"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "11:35"
+    }
+   ]
+  },
+  {
+   "train": "2407",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Pazarić",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "11:55",
+    "12:29"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "11:55"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "12:00"
+    },
+    {
+     "station": "Ilidža",
+     "arr": "12:06"
+    },
+    {
+     "station": "Blažuj",
+     "arr": "12:11"
+    },
+    {
+     "station": "Binježevo",
+     "arr": "12:16"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "12:20"
+    },
+    {
+     "station": "Pazarić",
+     "arr": "12:29"
+    }
+   ]
+  },
+  {
+   "train": "2408",
+   "rank": "lokalni voz",
+   "from": "Pazarić",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "12:44",
+    "13:18"
+   ],
+   "stops": [
+    {
+     "station": "Pazarić",
+     "dep": "12:44"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "12:53"
+    },
+    {
+     "station": "Binježevo",
+     "dep": "12:57"
+    },
+    {
+     "station": "Blažuj",
+     "dep": "13:02"
+    },
+    {
+     "station": "Ilidža",
+     "dep": "13:07"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "13:13"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "13:18"
+    }
+   ]
+  },
+  {
+   "train": "2409",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Pazarić",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "14:30",
+    "15:04"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "14:30"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "14:35"
+    },
+    {
+     "station": "Ilidža",
+     "arr": "14:41"
+    },
+    {
+     "station": "Blažuj",
+     "arr": "14:46"
+    },
+    {
+     "station": "Binježevo",
+     "arr": "14:51"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "14:55"
+    },
+    {
+     "station": "Pazarić",
+     "arr": "15:04"
+    }
+   ]
+  },
+  {
+   "train": "2410",
+   "rank": "lokalni voz",
+   "from": "Pazarić",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "16:10",
+    "16:44"
+   ],
+   "stops": [
+    {
+     "station": "Pazarić",
+     "dep": "16:10"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "16:19"
+    },
+    {
+     "station": "Binježevo",
+     "dep": "16:23"
+    },
+    {
+     "station": "Blažuj",
+     "dep": "16:28"
+    },
+    {
+     "station": "Ilidža",
+     "dep": "16:33"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "16:39"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "16:44"
+    }
+   ]
+  },
+  {
+   "train": "2411",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Pazarić",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "17:00",
+    "17:34"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "17:00"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "17:05"
+    },
+    {
+     "station": "Ilidža",
+     "arr": "17:11"
+    },
+    {
+     "station": "Blažuj",
+     "arr": "17:16"
+    },
+    {
+     "station": "Binježevo",
+     "arr": "17:21"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "17:25"
+    },
+    {
+     "station": "Pazarić",
+     "arr": "17:34"
+    }
+   ]
+  },
+  {
+   "train": "2412",
+   "rank": "lokalni voz",
+   "from": "Pazarić",
+   "to": "Sarajevo",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri"
+    ],
+    "no_public_holidays": true
+   },
+   "terminus_times": [
+    "18:14",
+    "18:48"
+   ],
+   "stops": [
+    {
+     "station": "Pazarić",
+     "dep": "18:14"
+    },
+    {
+     "station": "Hadžići",
+     "dep": "18:23"
+    },
+    {
+     "station": "Binježevo",
+     "dep": "18:27"
+    },
+    {
+     "station": "Blažuj",
+     "dep": "18:32"
+    },
+    {
+     "station": "Ilidža",
+     "dep": "18:37"
+    },
+    {
+     "station": "Alipašin Most",
+     "dep": "18:43"
+    },
+    {
+     "station": "Sarajevo",
+     "arr": "18:48"
+    }
+   ]
+  },
+  {
+   "train": "2413",
+   "rank": "lokalni voz",
+   "from": "Sarajevo",
+   "to": "Pazarić",
+   "service": {
+    "days": [
+     "mon",
+     "tue",
+     "wed",
+     "thu",
+     "fri",
+     "sat",
+     "sun"
+    ]
+   },
+   "terminus_times": [
+    "19:38",
+    "20:12"
+   ],
+   "stops": [
+    {
+     "station": "Sarajevo",
+     "dep": "19:38"
+    },
+    {
+     "station": "Alipašin Most",
+     "arr": "19:43"
+    },
+    {
+     "station": "Ilidža",
+     "arr": "19:49"
+    },
+    {
+     "station": "Blažuj",
+     "arr": "19:54"
+    },
+    {
+     "station": "Binježevo",
+     "arr": "19:59"
+    },
+    {
+     "station": "Hadžići",
+     "arr": "20:03"
+    },
+    {
+     "station": "Pazarić",
+     "arr": "20:12"
+    }
+   ]
+  }
+ ]
+}
